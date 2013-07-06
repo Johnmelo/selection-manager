@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Desciption:</b>
+  <%= @selection.desciption %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @selection.title %>
+</p>
+
+
+<%= link_to 'Edit', edit_selection_path(@selection) %> |
+<%= link_to 'Back', selections_path %>

@@ -1,4 +1,12 @@
 SelectionManager::Application.routes.draw do
+  resources :selections
+
+
+  devise_for :users
+
+  resources :enterprises
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
